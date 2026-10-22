@@ -5,7 +5,7 @@ xdotool must be installed
 
 //CONTROLS  
 /*
-Func+L = toggle cursor lock/keying vs tracking mode. Keying mode will check every pixel, tracking only the cross sections
+L = toggle cursor lock/keying vs tracking mode. Keying mode will check every pixel, tracking only the cross sections
 J+K = decrease/increase hue threshold
 N+M = decrease/increase luminance threshold
 I+O = decrease/increase keyed color kernel size

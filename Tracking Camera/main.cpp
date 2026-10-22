@@ -18,7 +18,7 @@ Make a list of keyed colors to track multiple trackers at the same time. Make a 
 
 //CONTROLS  
 /*
-Func+L = toggle cursor lock/keying vs tracking mode. Keying mode will check every pixel, tracking only the cross sections
+L = toggle cursor lock/keying vs tracking mode. Keying mode will check every pixel, tracking only the cross sections
 J+K = decrease/increase hue threshold
 N+M = decrease/increase luminance threshold
 I+O = decrease/increase keyed color kernel size

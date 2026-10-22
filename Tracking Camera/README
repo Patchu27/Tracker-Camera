@@ -1,0 +1,15 @@
+//Bash command to compile and run on Linux devices
+g++ --std=c++20 -c main.cpp -I/usr/include/SFML-3.0.2/include -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include && g++ main.o -o App -L/usr/include/SFML-3.0.2/lib -lsfml-graphics -lsfml-window -lsfml-system -lgstreamer-1.0 -lgstapp-1.0 -lglib-2.0 -lgobject-2.0 -lgthread-2.0 && export LD_LIBRARY_PATH=/usr/include/SFML-3.0.2/lib && ./App
+
+xdotool must be installed
+
+//CONTROLS  
+/*
+Func+L = toggle cursor lock/keying vs tracking mode. Keying mode will check every pixel, tracking only the cross sections
+J+K = decrease/increase hue threshold
+N+M = decrease/increase luminance threshold
+I+O = decrease/increase keyed color kernel size
+U = toggle fullscreen
+Left Mouse = pick color
+Escape (while in keying mode) = exit
+*/
